@@ -13,11 +13,14 @@ To use this module, add it to the modules array in the `config/config.js` file:
 ````javascript
 modules: [
 	{
-		module: 'MMM-quote',
+		module: 'MMM-quotes',
 		position: 'lower_third',
 		config: {
 			// The config property is optional.
 			// See 'Configuration options' for more information.
+			// Example:
+			classes: 'large bright',
+			authorClasses: 'medium normal align-right'
 		}
 	}
 ]

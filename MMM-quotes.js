@@ -2,7 +2,7 @@ Module.register('MMM-quotes',{
 	// Module config defaults.
 	defaults: {
 		services: [ 'favqs', 'forismatic_en' ],
-        showAuthor: true,
+		showAuthor: true,
 		updateInterval: 30000,
 		fadeSpeed: 4000,
 		classes: 'medium bright',
